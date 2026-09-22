@@ -569,7 +569,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function startMatch(){
-    if(!matchGrid || !matchStatus) return;
     matchedCount = 0;
     flippedCards = [];
     matchLock = false;
@@ -622,6 +621,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  /* 
   /* =========================================================
      Scene 5 -> 告白信
   ========================================================= */
